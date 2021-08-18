@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+        <header class="header">
+            <h1 id="title">Rigio</h1>
+            <p id="description">Thank you for helping us to give you a better experience on our platform.</p>
+        </header>   
+   </div>
+   <form id="survey-form">
+       
+    
+    <div class="form-group">
+           <label for="name" id="name-label">Name</label>
+               <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+       </div>
+       
+       
+       <div class="form-group">
+        <label for="email" id="email-label">Email</label>
+            <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        
+        
+        <div class="form-group">
+            <label for="number" id="number-label">Age <span class="clue">(Optional)</span></label>
+                <input type="number" name="Age" id="number" class="form-control" placeholder="Age" max="99" min="10">
+        </div>
+        
+        
+        <div class="form-group">
+            <p>What device do you use to access our platform?</p>
+            <select name="role" id="dropdown" class="form-control" required>
+                <option value="laptop">Laptop</option>
+                <option value="smartphone">Smartphone</option>
+                <option value="computer">Computer</option>
+                <option value="tablet">Tablet</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        
+        
+        <div class="form-group">
+            <p>What do you like most about our platform?</p>
+            <select name="most-like" id="most-like" class="form-control" required>
+                <option value="live-streaming">Live Stramings</option>
+                <option value="news">News</option>
+                <option value="events">Events</option>
+                <option value="international-soccer">International Soccer</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        
+        
+        <div class="form-group">
+            <p>What would you like us to add to our platform? (Check all that apply)</p>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="games" class="input-checkbox">
+                Games
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="motor-racing" class="input-checkbox">
+                Motor Racing
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="nba" class="input-checkbox">
+                NBA
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="mlb" class="input-checkbox">
+                MLB
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="golf" class="input-checkbox">
+                Golf
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="box" class="input-checkbox">
+                Box
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="preferences" value="mma" class="input-checkbox">
+                MMA
+            </label>
+        </div>
+        
+        
+        <div class="form-group">
+            <p>Would you recommend our platform to your friends?</p>
+            <label class="checkbox">
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+                Definitely
+            </label>
+            <label class="checkbox">
+                <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+                Maybe
+            </label>
+            <label class="checkbox">
+                <input name="user-recommend" value="I wouldn't" type="radio" class="input-radio">
+                I wouldn't
+            </label>
+        </div>
+
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter touy comment here..."></textarea>
+        </div>
+
+
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+   </form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: titillium web;
+    font-size: 18px;
+    
+
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/41257/pexels-photo-41257.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+   
+}
+
+#description{
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+
+}
+
+#survey-form{
+    background-color: rgba(179, 23, 18, 0.8) ;
+    color: #fff;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+#name{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+#email{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+#number{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+
+
+#dropdown{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+#most-like{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+.checkbox{
+    display: block;
+}
+
+
+
+#comments{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    max-height: 160px;
+
+}
+
+#submit{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    color: rgb(179, 23, 18);
+    font-weight: bolder;
+}
+
+#submit:hover{
+    background-color: #FF736D;
+    color: #fff;
+    border: none;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 157, 247, 0.25);
+  }
+
+  #comments:focus{
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 157, 247, 0.25);
+
+  }
